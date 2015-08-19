@@ -1,0 +1,10 @@
+{
+  "zookeeper_hosts": "localhost:2181",
+  "zookeeper_path": "/bolt",
+  "executable_arguments": ["rssfeedparser.py"],
+  "executable_name": "runner.bash",
+  "compress_files": ["rssfeedparser.py", "runner.bash"],
+  "computation_name": "rssfeedparser",
+  "mem": 256,
+  "cpus": 0.5
+}

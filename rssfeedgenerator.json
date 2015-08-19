@@ -1,0 +1,11 @@
+{
+  "zookeeper_hosts": "localhost:2181",
+  "zookeeper_path": "/bolt",
+  "executable_arguments": ["rssfeedgenerator.py"],
+  "executable_name": "runner.bash",
+  "compress_files": ["rssfeedgenerator.py", "runner.bash"],
+  "computation_name": "rssfeedgenerator",
+  "mem": 256,
+  "cpus": 0.50,
+  "instances": 3
+}
