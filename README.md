@@ -1,5 +1,5 @@
 # RSSParserWithConcord
-RSSFeedGenerator and RSSFeedParser are computation files to be use with concord.io framework. 
+RSSFeedGenerator and RSSFeedParser are computation files to be use with an awesome real time streaming analytic framework(http://www.concord.io/)
 
 RSSFeedGenerator is responsible for crawling http://www.craigslist.org/about/best/all/index[0-5000+].rss 
 and filtering for url+summary then send it over to RSSFeedParser. 
